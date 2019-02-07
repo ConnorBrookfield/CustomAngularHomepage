@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+	background-image: url("assets\images\backgrounds\tool.jpg");
+	background-repeat: no-repeat center;
+	background-size: cover;
+}
+
+.shape1 {
+	background-color: grey;
+	border: 5px solid white;
+	height: 250px;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 5px solid black;
+	border-radius: 25px;
+}
+
+/* Image + Link Box */
+#link-box {
+	height: 220px;
+	width: 220px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#link-box:hover {
+	transform: scale(1.05, 1.05);
+}
