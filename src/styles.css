@@ -4,26 +4,13 @@ body {
 	background-size: cover;
 }
 
-.shape1 {
-	background-color: grey;
-	border: 5px solid white;
-	height: 250px;
-}
-
 .container {
 	background-color: rgba(0, 0, 0, 0.4);
 	border: 5px solid black;
 	border-radius: 25px;
 }
 
-/* Image + Link Box */
-#link-box {
-	height: 220px;
-	width: 220px;
-	display: block;
-	margin: auto;
-	text-align: center;
-}
-#link-box:hover {
+/* Images */
+.img-fluid:hover {
 	transform: scale(1.05, 1.05);
 }
